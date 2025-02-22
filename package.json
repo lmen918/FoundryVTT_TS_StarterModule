@@ -1,0 +1,17 @@
+{
+  "name": "foundry-module-ts",
+  "version": "0.1.0",
+  "description": "A template project for FoundryVTT modules using TypeScript",
+  "license": "MIT",
+  "module": "dist/script/module.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^12.331.3-beta",
+    "rollup-plugin-copy": "^3.5.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}
